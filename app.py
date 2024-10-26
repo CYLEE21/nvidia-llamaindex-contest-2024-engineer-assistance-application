@@ -7,7 +7,6 @@ from llama_index.embeddings.nvidia import NVIDIAEmbedding
 from llama_index.llms.nvidia import NVIDIA
 from llama_index.postprocessor.nvidia_rerank import NVIDIARerank
 
-
 if not os.environ.get("NVIDIA_API_KEY", "").startswith("nvapi-"):
     nvidia_api_key = getpass.getpass("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")
     assert nvidia_api_key.startswith("nvapi-"), f"{nvidia_api_key[:5]}... is not a valid key"
@@ -42,6 +41,9 @@ def load_documents(file_objs):
             documents.extend(SimpleDirectoryReader(input_files=[file_path]).load_data())
         if not documents:
             return f"Error: No documents found in the selected files."
+        
+        # Simple preprocess the raw data
+        
         index = VectorStoreIndex.from_documents(documents)
         #query_engine = index.as_query_engine(similarity_top_k=10)
         query_engine = index.as_query_engine(
