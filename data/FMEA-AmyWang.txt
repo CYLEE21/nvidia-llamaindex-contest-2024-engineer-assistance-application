@@ -1,0 +1,32 @@
+Product: Advanced Coffee Maker Date: October 16, 2024 Prepared by: Amy Wang, Quality Engineer
+1. Failure Mode: Water Pump Malfunction
+Effect: No water is pumped, resulting in no coffee being brewed.
+Cause: Blockage in the water line, pump motor failure.
+Current Controls: Regular maintenance checks, inline water filters.
+Recommended Actions: Implement a more robust filtration system, add a sensor to detect water flow issues early.
+
+2. Failure Mode: Heating Element Failure
+Effect: Water is not heated, leading to cold coffee.
+Cause: Electrical failure, overheating.
+Current Controls: Temperature sensors, thermal fuses.
+Recommended Actions: Upgrade thermal fuse quality, add redundancy in heating elements.
+
+3. Failure Mode: Grinder Jam
+Effect: Coffee beans are not ground, halting coffee preparation.
+Cause: Beans stuck in grinder, motor failure.
+Current Controls: Manual grinder cleaning protocols, automatic shutoff if jam is detected.
+Recommended Actions: Improve grinder design to prevent jams, introduce a self-cleaning feature.
+
+4. Failure Mode: Control Panel Malfunction
+Effect: User cannot select brewing options or start the machine.
+Cause: Software glitch, physical damage to buttons or touch screen.
+Current Controls: Firmware updates, durable materials for touch panels.
+Recommended Actions: Enhance software testing, use more resistant materials for control panel.
+
+5. Failure Mode: Milk Frother Failure
+Effect: Milk is not frothed, affecting specialty coffee options.
+Cause: Blockage in frother nozzle, motor failure.
+Current Controls: Cleaning recommendations, motor overload protection.
+Recommended Actions: Redesign frother to minimize blockages, implement a more reliable motor.
+
+

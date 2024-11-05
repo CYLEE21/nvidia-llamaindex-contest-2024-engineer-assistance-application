@@ -1,0 +1,62 @@
+
+Product: Advanced Coffee Maker Date: October 16, 2024 Prepared by: Tomas Pinkman, Quality Engineer
+
+1. Failure Mode: Water Leakage
+
+Effect 1: Water damage to internal electronic components.
+
+Effect 2: Reduced water supply, affecting brewing quality.
+
+Cause: Seal failure at the water reservoir, cracked water lines.
+
+Current Controls: Regular seal inspections, pressure testing of water lines.
+
+Recommended Actions: Use higher quality seals, reinforce water lines with protective casing.
+
+2. Failure Mode: Temperature Sensor Malfunction
+
+Effect 1: Overheating, causing potential burn hazards.
+
+Effect 2: Underheating, resulting in lukewarm coffee.
+
+Cause: Electrical short, sensor calibration drift.
+
+Current Controls: Routine sensor calibration, circuit protection mechanisms.
+
+Recommended Actions: Implement dual temperature sensors for redundancy, enhance sensor protection.
+
+3. Failure Mode: Frother Motor Overload
+
+Effect: Motor burnout, disabling milk frother function.
+
+Cause 1: Frother nozzle blockage, causing increased motor strain.
+
+Cause 2: Overuse without adequate cooling periods.
+
+Current Controls: Motor temperature monitoring, user guidelines for frother use.
+
+Recommended Actions: Improve motor cooling system, add automatic usage limitations.
+
+4. Failure Mode: Power Supply Fluctuations
+
+Effect 1: Inconsistent brewing performance.
+
+Effect 2: Premature wear on electronic components.
+
+Cause: Voltage spikes, unstable power input.
+
+Current Controls: Surge protectors, power supply filters.
+
+Recommended Actions: Integrate advanced voltage regulation, improve power supply design.
+
+5. Failure Mode: Coffee Ground Contamination
+
+Effect: Off-flavors in brewed coffee.
+
+Cause 1: Foreign particles in grinder.
+
+Cause 2: Mold growth due to improper cleaning.
+
+Current Controls: Grinder cleaning recommendations, built-in cleaning cycle.
+
+Recommended Actions: Use higher-grade materials to reduce contamination, enhance cleaning protocols.

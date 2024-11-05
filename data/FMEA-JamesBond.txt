@@ -1,0 +1,59 @@
+Product: Advanced Coffee Maker with Iced Coffee and Juice Capabilities Date: October 16, 2024 Prepared by: James Bond, Quality Engineer
+
+1. Failure Mode: Ice Maker Malfunction
+
+Effect 1: No ice production, unable to make iced coffee.
+
+Effect 2: Souce water contaminated, the leakage of motor oil contaminate the water and lower.
+
+Cause: Ice maker motor failure, blocked ice dispenser.
+
+Current Controls: Routine motor checks, dispenser cleaning protocols.
+
+Recommended Actions: Upgrade motor durability, add sensors to detect blockages early.
+
+2. Failure Mode: Juice Extractor Jam
+
+Effect 1: Unable to produce fresh juice.
+
+Effect 2: Overheating of the motor, potential safety hazard.
+
+Cause: Fruit pulp blockage, motor overload.
+
+Current Controls: Manual cleaning of extractor, motor temperature monitoring.
+
+Recommended Actions: Redesign extractor for easier cleaning, implement automatic shutoff for motor overload.
+
+3. Failure Mode: Refrigeration Unit Failure
+
+Effect: Inability to keep ingredients cool, affecting the quality of iced coffee and juice.
+
+Cause 1: Compressor malfunction.
+
+Cause 2: Refrigerant leakage.
+
+Current Controls: Regular compressor maintenance, refrigerant level checks.
+
+Recommended Actions: Improve compressor reliability, enhance leak detection systems.
+
+4. Failure Mode: Juice Quality Degradation
+
+Effect: Poor taste and texture of juice.
+
+Cause 1: Contaminants in the juicer.
+
+Cause 2: Improper storage of juice ingredients.
+
+Current Controls: Cleaning guidelines, ingredient storage recommendations.
+
+Recommended Actions: Use higher quality materials for juicer parts, improve storage compartment design.
+
+5. Failure Mode: Temperature Control Malfunction for Iced Coffee
+
+Effect: Incorrect temperature for iced coffee, either too warm or too cold.
+
+Cause: Thermostat failure, sensor miscalibration.
+
+Current Controls: Regular calibration checks, redundant temperature sensors.
+
+Recommended Actions: Upgrade thermostat accuracy, implement advanced calibration methods.
