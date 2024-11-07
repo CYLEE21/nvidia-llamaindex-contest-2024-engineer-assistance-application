@@ -59,8 +59,10 @@ Raw data -> Dummy Nvidia Nemo Curator (simple data cleaning) -> Nividia NIM Micr
 
 Used models:
 
-1. llm_model = "mistralai/mixtral-8x7b-instruct-v0.1"
-2. embed_model = "NV-Embed-QA"
+```
+llm_model = "mistralai/mixtral-8x7b-instruct-v0.1"
+embed_model = "NV-Embed-QA"
+```
 
 ## 7 Challenges and future development
 
