@@ -1,4 +1,5 @@
 # NVIDIA-Llamaindex Contest (Engineer Assistance Application)
+Author: Chi-Yuan Lee
 
 ## 1 Abstract
 
