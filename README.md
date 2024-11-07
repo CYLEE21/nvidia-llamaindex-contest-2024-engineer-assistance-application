@@ -58,6 +58,17 @@ Raw data -> Dummy Nvidia Nemo Curator (simple data cleaning) -> Nividia NIM Micr
 
 Used models:
 
-> llm_model = "mistralai/mixtral-8x7b-instruct-v0.1"
+1. llm_model = "mistralai/mixtral-8x7b-instruct-v0.1"
+2. embed_model = "NV-Embed-QA"
 
-> embed_model = "NV-Embed-QA"
+## 7 Challenges and future development
+
+Challenges:
+1. Real world practical scenario.
+2. Libraries do not support to some specific environment (ex. MacOS).
+
+Future Development:
+1. Integrate more Nvidia eco-system libraries.
+2. Fine-tune the LLM for more accurate and specific response.
+3. Better UI design.
+
