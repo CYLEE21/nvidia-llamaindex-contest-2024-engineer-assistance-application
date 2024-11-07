@@ -2,13 +2,12 @@ import os
 from dotenv import load_dotenv
 
 import gradio as gr
-from openai import OpenAI
-from llama_index.core import Document
+from llama_index.core import Document, Settings, SimpleDirectoryReader, VectorStoreIndex
 from llama_index.core.node_parser import SentenceSplitter
-from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, Settings
 from llama_index.embeddings.nvidia import NVIDIAEmbedding
 from llama_index.llms.nvidia import NVIDIA
 from llama_index.postprocessor.nvidia_rerank import NVIDIARerank
+from openai import OpenAI
 
 from nemo_curator_dummy import nemo_curator_text_reformatting
 
@@ -144,7 +143,6 @@ with gr.Blocks() as demo:
     with gr.Row():
         file_input = gr.File(label="Select File to load.", file_count="multiple")
         load_btn = gr.Button("Load documents")
-        confirm_btn = gr.Button("Confirm Analysis", interactive=True)
     
     load_output = gr.Textbox(label="Load status")
     chatbot = gr.Chatbot(type="messages")
