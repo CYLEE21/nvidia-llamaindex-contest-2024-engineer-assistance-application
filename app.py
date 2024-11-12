@@ -74,7 +74,7 @@ def load_documents(file_objs):
         return f"Successfully load {len(documents)} files! The summary has been transferred in the documents.", [initial_message]
     
     except Exception as e:
-        return f"Error: error in using the model. {e}"
+        return f"Error: error in using the model. {e}", ["error"]
 
 
 def init_casual_analysis(message, history):
@@ -156,6 +156,6 @@ with gr.Blocks() as demo:
     clear.click(lambda: None, None, chatbot, queue=False)
 
 if __name__ == "__main__":
-    demo.launch(server_name='0.0.0.0')
+    demo.launch()
 
 
